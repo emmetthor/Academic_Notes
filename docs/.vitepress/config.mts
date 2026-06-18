@@ -38,13 +38,14 @@ export default defineConfig({
         {
           text: '生物',
           items: [
+            { text: '生物目錄', link: 'notes/biology/index' },
             {
               text: '有機物質',
               items: [
                 { text: '蛋白質', link: 'notes/biology/蛋白質' },
                 { text: '核甘酸', link: 'notes/biology/核苷酸' },
                 { text: '含氮鹼基', link: 'notes/biology/含氮鹼基' },
-                { text: 'DNA和RNA', link: 'notes/biology/DNA和RNA' }
+                { text: 'DNA 和 RNA', link: 'notes/biology/DNA和RNA' }
               ]
             },
             {
@@ -54,7 +55,13 @@ export default defineConfig({
                 { text: '無氧呼吸', link: 'notes/biology/無氧呼吸' }
               ]
             },
-            { text: '光合作用', link: 'notes/biology/光合作用' }
+            { text: '光合作用', link: 'notes/biology/光合作用' },
+            {
+              text: '基因',
+              items: [
+                { text: 'DNA 複製', link: 'notes/biology/DNA複製' },
+              ]
+            }
           ]
         },
 
