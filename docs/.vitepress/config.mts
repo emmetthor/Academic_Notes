@@ -42,7 +42,9 @@ export default defineConfig({
               text: '有機物質',
               items: [
                 { text: '蛋白質', link: 'notes/biology/蛋白質' },
-                { text: '核甘酸', link: 'notes/biology/核苷酸' }
+                { text: '核甘酸', link: 'notes/biology/核苷酸' },
+                { text: '含氮鹼基', link: 'notes/biology/含氮鹼基' },
+                { text: 'DNA和RNA', link: 'notes/biology/DNA和RNA' }
               ]
             },
             {
