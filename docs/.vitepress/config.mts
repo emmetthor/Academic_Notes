@@ -60,6 +60,7 @@ export default defineConfig({
               text: '基因',
               items: [
                 { text: 'DNA 複製', link: 'notes/biology/DNA複製' },
+                { text: '轉錄與轉譯', link: 'notes/biology/轉錄與轉譯' },
               ]
             }
           ]
