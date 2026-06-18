@@ -5,6 +5,11 @@ export default defineConfig({
   title: "Emmetthor's Academic Notes",
   base: '/Academic_Notes/',
   description: "A VitePress Site",
+  
+  markdown: {
+    math: true
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -81,6 +86,18 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
+    search: {
+      provider: 'local'
+    }
   }
 })
