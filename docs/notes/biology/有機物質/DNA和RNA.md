@@ -33,7 +33,7 @@ $$\frac{\text{Purines}}{\text{Pyrimidines}} = \frac{A + G}{C + T} = 1 = \text{a 
 
 ## 核苷酸聚合
 
-![DNA聚合](./img/DNA聚合.png)
+![DNA聚合](../img/DNA聚合.png)
 
 因此聚合時會脫水。
 
