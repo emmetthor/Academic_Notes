@@ -69,10 +69,10 @@ export default defineConfig({
             },
             { text: '光合作用', link: 'notes/biology/能量產生/光合作用' },
             {
-              text: '基因',
+              text: '基因與遺傳',
               items: [
-                { text: 'DNA 複製', link: 'notes/biology/基因/DNA複製' },
-                { text: '轉錄與轉譯', link: 'notes/biology/基因/轉錄與轉譯' },
+                { text: 'DNA 複製', link: 'notes/biology/基因與遺傳/DNA複製' },
+                { text: '轉錄與轉譯', link: 'notes/biology/基因與遺傳/轉錄與轉譯' },
               ]
             }
           ]
