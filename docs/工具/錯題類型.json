@@ -1,0 +1,34 @@
+{
+    "C1": {
+        "name": "觀念不懂",
+        "description": "根本不知道原理"
+    },
+    "C2": {
+        "name": "公式用錯",
+        "description": "看錯題目、誤會條件"
+    },
+    "C3": {
+        "name": "題型辨識錯",
+        "description": "不知道這題該用哪個方法"
+    },
+    "C4": {
+        "name": "步驟漏掉",
+        "description": "少討論條件、少分類討論"
+    },
+    "C5": {
+        "name": "時間壓力錯",
+        "description": "會寫但考試時來不及或慌掉"
+    },
+    "C6": {
+        "name": "觀念不懂",
+        "description": "根本不知道原理"
+    },
+    "C7": {
+        "name": "觀念不懂",
+        "description": "根本不知道原理"
+    },
+    "C8": {
+        "name": "觀念不懂",
+        "description": "根本不知道原理"
+    }
+}

@@ -19,6 +19,18 @@ export default defineConfig({
 
     sidebar: {
       '/notes/': [
+        // 數學
+        {
+          text: '數學',
+          items: [
+            {
+              text: '錯題',
+              items: [
+                { text: 'math-001', link: 'notes/math/三角函數/錯題/math-001.md' }
+              ]
+            }
+          ]
+        },
         // 物理
         {
 
@@ -42,25 +54,25 @@ export default defineConfig({
             {
               text: '有機物質',
               items: [
-                { text: '蛋白質', link: 'notes/biology/蛋白質' },
-                { text: '核甘酸', link: 'notes/biology/核苷酸' },
-                { text: '含氮鹼基', link: 'notes/biology/含氮鹼基' },
-                { text: 'DNA 和 RNA', link: 'notes/biology/DNA和RNA' }
+                { text: '蛋白質', link: 'notes/biology/有機物質/蛋白質' },
+                { text: '核甘酸', link: 'notes/biology/有機物質/核苷酸' },
+                { text: '含氮鹼基', link: 'notes/biology/有機物質/含氮鹼基' },
+                { text: 'DNA 和 RNA', link: 'notes/biology/有機物質/DNA和RNA' }
               ]
             },
             {
               text: '能量產生',
               items: [
-                { text: '有氧呼吸', link: 'notes/biology/有氧呼吸' },
-                { text: '無氧呼吸', link: 'notes/biology/無氧呼吸' }
+                { text: '有氧呼吸', link: 'notes/biology/能量產生/有氧呼吸' },
+                { text: '無氧呼吸', link: 'notes/biology/能量產生/無氧呼吸' }
               ]
             },
-            { text: '光合作用', link: 'notes/biology/光合作用' },
+            { text: '光合作用', link: 'notes/biology/能量產生/光合作用' },
             {
               text: '基因',
               items: [
-                { text: 'DNA 複製', link: 'notes/biology/DNA複製' },
-                { text: '轉錄與轉譯', link: 'notes/biology/轉錄與轉譯' },
+                { text: 'DNA 複製', link: 'notes/biology/基因/DNA複製' },
+                { text: '轉錄與轉譯', link: 'notes/biology/基因/轉錄與轉譯' },
               ]
             }
           ]
