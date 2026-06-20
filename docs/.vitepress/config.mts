@@ -84,7 +84,8 @@ export default defineConfig({
                   text: '錯題',
                   collapsed: true,
                   items: [
-                    { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001.md' }
+                    { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001' },
+                    { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' }
                   ]
                 }
               ]
