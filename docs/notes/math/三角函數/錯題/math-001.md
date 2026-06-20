@@ -32,11 +32,13 @@ review_count: 0
 
 ![math-001](../img/math-001.svg)
 
-### (1)
+::: details (1)
 
 根據 $30-60-90$ 度三角形比例 $1 : \sqrt 3 : 2$ 可知 $\overline{P_1A} = 6\sqrt 3$。
 
-### (3)
+:::
+
+::: details (3)
 
 看到 $\triangle AP_2B$，發現可用正弦定理
 $$\frac{9}{\sin 60\degree}=\frac{\overline{AP_2}}{\sin 45\degree}
@@ -53,6 +55,10 @@ $$
 
 因此答案為：往西 $15\degree$ 北前進 $3 \sqrt 6$ 公里。
 
-### (2)
+:::
+
+::: details (2)
 
 根據 (3)，$\theta = 90\degree$。
+
+:::

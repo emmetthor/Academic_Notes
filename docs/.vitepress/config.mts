@@ -22,9 +22,11 @@ export default defineConfig({
         // 數學
         {
           text: '數學',
+          collapsed: true,
           items: [
             {
               text: '錯題',
+              collapsed: true,
               items: [
                 { text: 'math-001', link: 'notes/math/三角函數/錯題/math-001.md' }
               ]
@@ -49,10 +51,12 @@ export default defineConfig({
         // 生物
         {
           text: '生物',
+          collapsed: true,
           items: [
             { text: '生物目錄', link: 'notes/biology/index' },
             {
               text: '有機物質',
+              collapsed: true,
               items: [
                 { text: '蛋白質', link: 'notes/biology/有機物質/蛋白質' },
                 { text: '核甘酸', link: 'notes/biology/有機物質/核苷酸' },
@@ -62,6 +66,7 @@ export default defineConfig({
             },
             {
               text: '能量產生',
+              collapsed: true,
               items: [
                 { text: '有氧呼吸', link: 'notes/biology/能量產生/有氧呼吸' },
                 { text: '無氧呼吸', link: 'notes/biology/能量產生/無氧呼吸' }
@@ -70,9 +75,18 @@ export default defineConfig({
             { text: '光合作用', link: 'notes/biology/能量產生/光合作用' },
             {
               text: '基因與遺傳',
+              collapsed: true,
               items: [
+                { text: '分子遺傳學', link: 'notes/biology/基因與遺傳/分子遺傳學' },
                 { text: 'DNA 複製', link: 'notes/biology/基因與遺傳/DNA複製' },
                 { text: '轉錄與轉譯', link: 'notes/biology/基因與遺傳/轉錄與轉譯' },
+                {
+                  text: '錯題',
+                  collapsed: true,
+                  items: [
+                    { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001.md' }
+                  ]
+                }
               ]
             }
           ]
