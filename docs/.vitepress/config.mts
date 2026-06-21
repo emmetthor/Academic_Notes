@@ -55,6 +55,7 @@ export default defineConfig({
               items: [
                 { text: '溶液類型', link: 'notes/chemistry/溶液/溶液類型' },
                 { text: '膠體溶液', link: 'notes/chemistry/溶液/膠體溶液' },
+                { text: '濃度表示', link: 'notes/chemistry/溶液/濃度表示' },
               ]
             }
           ]
