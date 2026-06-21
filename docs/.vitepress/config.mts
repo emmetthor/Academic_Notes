@@ -45,7 +45,19 @@ export default defineConfig({
 
         // 化學
         {
-
+          text: '化學',
+          collapsed: true,
+          items: [
+            { text: '化學首頁', link: 'notes/chemistry/index' },
+            {
+              text: '溶液',
+              collapsed: true,
+              items: [
+                { text: '溶液類型', link: 'notes/chemistry/溶液/溶液類型' },
+                { text: '膠體溶液', link: 'notes/chemistry/溶液/膠體溶液' },
+              ]
+            }
+          ]
         },
 
         // 生物
@@ -80,6 +92,7 @@ export default defineConfig({
                 { text: '分子遺傳學', link: 'notes/biology/基因與遺傳/分子遺傳學' },
                 { text: 'DNA 複製', link: 'notes/biology/基因與遺傳/DNA複製' },
                 { text: '轉錄與轉譯', link: 'notes/biology/基因與遺傳/轉錄與轉譯' },
+                { text: '遺傳學史', link: 'notes/biology/基因與遺傳/遺傳學史' },
                 {
                   text: '錯題',
                   collapsed: true,
