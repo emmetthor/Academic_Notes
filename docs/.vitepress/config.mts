@@ -57,6 +57,21 @@ export default defineConfig({
                 { text: '膠體溶液', link: 'notes/chemistry/溶液/膠體溶液' },
                 { text: '濃度表示', link: 'notes/chemistry/溶液/濃度表示' },
               ]
+            },
+            {
+              text: '酸鹼',
+              collapsed: true,
+              items: [
+                { text: '電解質', link: 'notes/chemistry/酸鹼/電解質' },
+                { text: '酸鹼度', link: 'notes/chemistry/酸鹼/酸鹼度' },
+                {
+                  text: '錯題',
+                  collapsed: true,
+                  items: [
+                    { text: 'che-001', link: 'notes/chemistry/酸鹼/錯題/che-001.md' }
+                  ]
+                }
+              ]
             }
           ]
         },
