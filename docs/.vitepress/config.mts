@@ -137,7 +137,11 @@ export default defineConfig({
                 { text: '秦漢史', link: 'notes/history/朝代史/秦漢史' },
                 { text: '魏晉南北朝史', link: 'notes/history/朝代史/魏晉南北朝史' },
               ]
-            }
+            },
+            { text: '土地制度演變', link: 'notes/history/土地制度演變' },
+            { text: '宰相制度演變', link: 'notes/history/宰相制度演變' },
+            { text: '戶籍制度演變', link: 'notes/history/戶籍制度演變' },
+            { text: '選才制度演變', link: 'notes/history/選才制度演變' },
           ]
         },
 
