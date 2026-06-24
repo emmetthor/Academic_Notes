@@ -135,6 +135,7 @@ export default defineConfig({
               items: [
                 { text: '封建時代史', link: 'notes/history/朝代史/封建時代史' },
                 { text: '秦漢史', link: 'notes/history/朝代史/秦漢史' },
+                { text: '魏晉南北朝史', link: 'notes/history/朝代史/魏晉南北朝史' },
               ]
             }
           ]
