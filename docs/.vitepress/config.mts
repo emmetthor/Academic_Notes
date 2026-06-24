@@ -114,9 +114,25 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001' },
-                    { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' }
+                    { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' },
+                    { text: 'bio-003', link: 'notes/biology/基因與遺傳/錯題/bio-003' },
                   ]
                 }
+              ]
+            }
+          ]
+        },
+
+        // 歷史
+        {
+          text: '歷史',
+          collapsed: true,
+          items: [
+            {
+              text: '朝代史',
+              collapsed: true,
+              items: [
+                { text: '封建時代史', link: 'notes/history/朝代史/封建時代史' }
               ]
             }
           ]
