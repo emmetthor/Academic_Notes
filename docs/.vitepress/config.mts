@@ -116,6 +116,7 @@ export default defineConfig({
                     { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001' },
                     { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' },
                     { text: 'bio-003', link: 'notes/biology/基因與遺傳/錯題/bio-003' },
+                    { text: 'bio-004', link: 'notes/biology/基因與遺傳/錯題/bio-004' },
                   ]
                 }
               ]
