@@ -121,6 +121,13 @@ export default defineConfig({
                   ]
                 }
               ]
+            },
+            {
+              text: '實驗',
+              collapsed: true,
+              items: [
+                { text: 'DNA 粗萃取', link: 'notes/biology/實驗/DNA粗萃取' }
+              ]
             }
           ]
         },
