@@ -89,7 +89,8 @@ export default defineConfig({
                 { text: '蛋白質', link: 'notes/biology/有機物質/蛋白質' },
                 { text: '核甘酸', link: 'notes/biology/有機物質/核苷酸' },
                 { text: '含氮鹼基', link: 'notes/biology/有機物質/含氮鹼基' },
-                { text: 'DNA 和 RNA', link: 'notes/biology/有機物質/DNA和RNA' }
+                { text: 'DNA 和 RNA', link: 'notes/biology/有機物質/DNA和RNA' },
+                { text: '染色質與染色體', link: 'notes/biology/有機物質/染色質與染色體' }
               ]
             },
             {
