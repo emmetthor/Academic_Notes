@@ -68,7 +68,9 @@ export default defineConfig({
                   text: '錯題',
                   collapsed: true,
                   items: [
-                    { text: 'che-001', link: 'notes/chemistry/酸鹼/錯題/che-001.md' }
+                    { text: 'che-001', link: 'notes/chemistry/酸鹼/錯題/che-001.md' },
+                    { text: 'che-002', link: 'notes/chemistry/酸鹼/錯題/che-002.md' },
+                    { text: 'che-003', link: 'notes/chemistry/酸鹼/錯題/che-003.md' }
                   ]
                 }
               ]
@@ -90,7 +92,14 @@ export default defineConfig({
                 { text: '核甘酸', link: 'notes/biology/有機物質/核苷酸' },
                 { text: '含氮鹼基', link: 'notes/biology/有機物質/含氮鹼基' },
                 { text: 'DNA 和 RNA', link: 'notes/biology/有機物質/DNA和RNA' },
-                { text: '染色質與染色體', link: 'notes/biology/有機物質/染色質與染色體' }
+                { text: '染色質與染色體', link: 'notes/biology/有機物質/染色質與染色體' },
+                {
+                  text: '錯題',
+                  collapsed: true,
+                  items: [
+                    { text: 'bio-005', link: 'notes/biology/有機物質/錯題/bio-005' }
+                  ]
+                }
               ]
             },
             {
@@ -118,6 +127,7 @@ export default defineConfig({
                     { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' },
                     { text: 'bio-003', link: 'notes/biology/基因與遺傳/錯題/bio-003' },
                     { text: 'bio-004', link: 'notes/biology/基因與遺傳/錯題/bio-004' },
+                    { text: 'bio-006', link: 'notes/biology/基因與遺傳/錯題/bio-006' },
                   ]
                 }
               ]
