@@ -70,7 +70,8 @@ export default defineConfig({
                   items: [
                     { text: 'che-001', link: 'notes/chemistry/酸鹼/錯題/che-001.md' },
                     { text: 'che-002', link: 'notes/chemistry/酸鹼/錯題/che-002.md' },
-                    { text: 'che-003', link: 'notes/chemistry/酸鹼/錯題/che-003.md' }
+                    { text: 'che-003', link: 'notes/chemistry/酸鹼/錯題/che-003.md' },
+                    { text: 'che-004', link: 'notes/chemistry/酸鹼/錯題/che-004.md' },
                   ]
                 }
               ]
