@@ -64,6 +64,7 @@ export default defineConfig({
               items: [
                 { text: '電解質', link: 'notes/chemistry/酸鹼/電解質' },
                 { text: '酸鹼度', link: 'notes/chemistry/酸鹼/酸鹼度' },
+                { text: '化學電池', link: 'notes/chemistry/酸鹼/化學電池' },
                 {
                   text: '錯題',
                   collapsed: true,
