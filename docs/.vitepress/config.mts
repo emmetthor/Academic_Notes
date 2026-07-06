@@ -25,12 +25,19 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
-              text: '錯題',
+              text: '三角函數',
               collapsed: true,
               items: [
-                { text: 'math-001', link: 'notes/math/三角函數/錯題/math-001.md' }
+                { text: '弧度', link: 'notes/math/三角函數/弧度' },
+                {
+                  text: '錯題',
+                  collapsed: true,
+                  items: [
+                    { text: 'math-001', link: 'notes/math/三角函數/錯題/math-001.md' }
+                  ]
+                }
               ]
-            }
+            },
           ]
         },
         // 物理

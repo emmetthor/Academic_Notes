@@ -30,7 +30,7 @@ review_count: 0
 
 作圖。
 
-![math-001](../img/math-001.svg)
+![math-001](../../img/math-001.svg)
 
 ::: details (1)
 
