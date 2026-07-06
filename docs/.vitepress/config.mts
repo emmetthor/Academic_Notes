@@ -47,7 +47,19 @@ export default defineConfig({
 
         // 地科
         {
-
+          text: '地科',
+          collapsed: true,
+          items: [
+            { text: '地科首頁', link: 'notes/geology/index' },
+            {
+              text: '地球起源',
+              collapsed: true,
+              items: [
+                { text: '太陽系形成', link: 'notes/geology/地球起源/太陽系形成' },
+                { text: '地球形成', link: 'notes/geology/地球起源/地球形成' },
+              ]
+            },
+          ]
         },
 
         // 化學
