@@ -57,6 +57,7 @@ export default defineConfig({
               items: [
                 { text: '太陽系形成', link: 'notes/geology/地球起源/太陽系形成' },
                 { text: '地球形成', link: 'notes/geology/地球起源/地球形成' },
+                { text: '大氣與海洋形成', link: 'notes/geology/地球起源/大氣與海洋形成'}
               ]
             },
           ]
