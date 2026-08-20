@@ -224,6 +224,13 @@ export default defineConfig({
               items: [
                 { text: 'che-006', link: '/mistakes/chemistry/熱化學/che-006' }
               ]
+            },
+            {
+              text: '溶解度',
+              collapsed: true,
+              items: [
+                { text: 'che-007', link: '/mistakes/chemistry/溶解度/che-007' }
+              ]
             }
           ]
         },
