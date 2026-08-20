@@ -81,6 +81,13 @@ export default defineConfig({
                 { text: '酸鹼度', link: 'notes/chemistry/酸鹼/酸鹼度' },
                 { text: '化學電池', link: 'notes/chemistry/酸鹼/化學電池' },
               ]
+            },
+            {
+              text: '熱',
+              collapsed: true,
+              items: [
+                { text: '反應熱', link: 'notes/chemistry/熱/反應熱' },
+              ]
             }
           ]
         },
