@@ -262,6 +262,13 @@ export default defineConfig({
               items: [
                 { text: 'bio-007', link: '/mistakes/biology/DNA複製/bio-007' }
               ]
+            },
+            {
+              text: '細胞學史',
+              collapsed: true,
+              items: [
+                { text: 'bio-008', link: '/mistakes/biology/細胞學史/bio-008' }
+              ]
             }
           ]
         }
