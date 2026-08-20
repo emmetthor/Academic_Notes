@@ -14,7 +14,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '筆記', link: '/notes/index' }
+      { text: '筆記', link: '/notes/index' },
+      { text: '錯題', link: '/mistakes/' }
     ],
 
     sidebar: {
@@ -29,13 +30,6 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '弧度', link: 'notes/math/三角函數/弧度' },
-                {
-                  text: '錯題',
-                  collapsed: true,
-                  items: [
-                    { text: 'math-001', link: 'notes/math/三角函數/錯題/math-001.md' }
-                  ]
-                }
               ]
             },
           ]
@@ -86,17 +80,6 @@ export default defineConfig({
                 { text: '電解質', link: 'notes/chemistry/酸鹼/電解質' },
                 { text: '酸鹼度', link: 'notes/chemistry/酸鹼/酸鹼度' },
                 { text: '化學電池', link: 'notes/chemistry/酸鹼/化學電池' },
-                {
-                  text: '錯題',
-                  collapsed: true,
-                  items: [
-                    { text: 'che-001', link: 'notes/chemistry/酸鹼/錯題/che-001.md' },
-                    { text: 'che-002', link: 'notes/chemistry/酸鹼/錯題/che-002.md' },
-                    { text: 'che-003', link: 'notes/chemistry/酸鹼/錯題/che-003.md' },
-                    { text: 'che-004', link: 'notes/chemistry/酸鹼/錯題/che-004.md' },
-                    { text: 'che-005', link: 'notes/chemistry/酸鹼/錯題/che-005.md' },
-                  ]
-                }
               ]
             }
           ]
@@ -117,13 +100,6 @@ export default defineConfig({
                 { text: '含氮鹼基', link: 'notes/biology/有機物質/含氮鹼基' },
                 { text: 'DNA 和 RNA', link: 'notes/biology/有機物質/DNA和RNA' },
                 { text: '染色質與染色體', link: 'notes/biology/有機物質/染色質與染色體' },
-                {
-                  text: '錯題',
-                  collapsed: true,
-                  items: [
-                    { text: 'bio-005', link: 'notes/biology/有機物質/錯題/bio-005' }
-                  ]
-                }
               ]
             },
             {
@@ -143,17 +119,6 @@ export default defineConfig({
                 { text: 'DNA 複製', link: 'notes/biology/基因與遺傳/DNA複製' },
                 { text: '轉錄與轉譯', link: 'notes/biology/基因與遺傳/轉錄與轉譯' },
                 { text: '遺傳學史', link: 'notes/biology/基因與遺傳/遺傳學史' },
-                {
-                  text: '錯題',
-                  collapsed: true,
-                  items: [
-                    { text: 'bio-001', link: 'notes/biology/基因與遺傳/錯題/bio-001' },
-                    { text: 'bio-002', link: 'notes/biology/基因與遺傳/錯題/bio-002' },
-                    { text: 'bio-003', link: 'notes/biology/基因與遺傳/錯題/bio-003' },
-                    { text: 'bio-004', link: 'notes/biology/基因與遺傳/錯題/bio-004' },
-                    { text: 'bio-006', link: 'notes/biology/基因與遺傳/錯題/bio-006' },
-                  ]
-                }
               ]
             },
             {
@@ -208,6 +173,66 @@ export default defineConfig({
                 { text: '微分', link: 'notes/TRML/skill/微分' },
                 { text: '數論', link: 'notes/TRML/skill/數論' },
                 { text: '矩陣', link: 'notes/TRML/skill/矩陣' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/mistakes/': [
+        {
+          text: '錯題總覽',
+          link: '/mistakes/'
+        },
+        {
+          text: '數學',
+          collapsed: true,
+          items: [
+            {
+              text: '三角函數',
+              collapsed: true,
+              items: [
+                { text: 'math-001', link: '/mistakes/math/三角函數/math-001' }
+              ]
+            }
+          ]
+        },
+        {
+          text: '化學',
+          collapsed: true,
+          items: [
+            {
+              text: '酸鹼',
+              collapsed: true,
+              items: [
+                { text: 'che-001', link: '/mistakes/chemistry/酸鹼/che-001' },
+                { text: 'che-002', link: '/mistakes/chemistry/酸鹼/che-002' },
+                { text: 'che-003', link: '/mistakes/chemistry/酸鹼/che-003' },
+                { text: 'che-004', link: '/mistakes/chemistry/酸鹼/che-004' },
+                { text: 'che-005', link: '/mistakes/chemistry/酸鹼/che-005' }
+              ]
+            }
+          ]
+        },
+        {
+          text: '生物',
+          collapsed: true,
+          items: [
+            {
+              text: '有機物質',
+              collapsed: true,
+              items: [
+                { text: 'bio-005', link: '/mistakes/biology/有機物質/bio-005' }
+              ]
+            },
+            {
+              text: '基因與遺傳',
+              collapsed: true,
+              items: [
+                { text: 'bio-001', link: '/mistakes/biology/基因與遺傳/bio-001' },
+                { text: 'bio-002', link: '/mistakes/biology/基因與遺傳/bio-002' },
+                { text: 'bio-003', link: '/mistakes/biology/基因與遺傳/bio-003' },
+                { text: 'bio-004', link: '/mistakes/biology/基因與遺傳/bio-004' },
+                { text: 'bio-006', link: '/mistakes/biology/基因與遺傳/bio-006' }
               ]
             }
           ]
