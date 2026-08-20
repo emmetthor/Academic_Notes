@@ -255,6 +255,13 @@ export default defineConfig({
                 { text: 'bio-004', link: '/mistakes/biology/基因與遺傳/bio-004' },
                 { text: 'bio-006', link: '/mistakes/biology/基因與遺傳/bio-006' }
               ]
+            },
+            {
+              text: 'DNA複製',
+              collapsed: true,
+              items: [
+                { text: 'bio-007', link: '/mistakes/biology/DNA複製/bio-007' }
+              ]
             }
           ]
         }
