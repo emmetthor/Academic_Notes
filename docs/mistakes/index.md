@@ -18,6 +18,10 @@
 - [che-004](./chemistry/酸鹼/che-004)
 - [che-005](./chemistry/酸鹼/che-005)
 
+### 熱化學
+
+- [che-006](./chemistry/熱化學/che-006)
+
 ## 生物
 
 ### 有機物質

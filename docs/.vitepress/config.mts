@@ -210,6 +210,13 @@ export default defineConfig({
                 { text: 'che-004', link: '/mistakes/chemistry/酸鹼/che-004' },
                 { text: 'che-005', link: '/mistakes/chemistry/酸鹼/che-005' }
               ]
+            },
+            {
+              text: '熱化學',
+              collapsed: true,
+              items: [
+                { text: 'che-006', link: '/mistakes/chemistry/熱化學/che-006' }
+              ]
             }
           ]
         },
