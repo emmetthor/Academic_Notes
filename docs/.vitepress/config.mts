@@ -269,6 +269,13 @@ export default defineConfig({
               items: [
                 { text: 'bio-008', link: '/mistakes/biology/細胞學史/bio-008' }
               ]
+            },
+            {
+              text: '生物的遺傳特性',
+              collapsed: true,
+              items: [
+                { text: 'bio-009', link: '/mistakes/biology/生物的遺傳特性/bio-009' }
+              ]
             }
           ]
         }
