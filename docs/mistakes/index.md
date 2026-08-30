@@ -25,6 +25,11 @@
 ### 溶解度
 
 - [che-007](./chemistry/溶解度/che-007)
+- [che-009](./chemistry/溶解度/che-009)
+
+### 酸鹼度
+
+- [che-008](./chemistry/酸鹼度/che-008)
 
 ## 生物
 
