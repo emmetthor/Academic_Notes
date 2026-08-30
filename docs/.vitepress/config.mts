@@ -36,7 +36,11 @@ export default defineConfig({
         },
         // 物理
         {
-
+          text: '物理',
+          collapsed: true,
+          items: [
+            { text: '測量與不確定度', link: 'notes/physics/測量與不確定度' },
+          ]
         },
 
         // 地科
@@ -229,7 +233,15 @@ export default defineConfig({
               text: '溶解度',
               collapsed: true,
               items: [
-                { text: 'che-007', link: '/mistakes/chemistry/溶解度/che-007' }
+                { text: 'che-007', link: '/mistakes/chemistry/溶解度/che-007' },
+                { text: 'che-009', link: '/mistakes/chemistry/溶解度/che-009' }
+              ]
+            },
+            {
+              text: '酸鹼度',
+              collapsed: true,
+              items: [
+                { text: 'che-008', link: '/mistakes/chemistry/酸鹼度/che-008' }
               ]
             }
           ]
