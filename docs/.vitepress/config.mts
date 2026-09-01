@@ -133,6 +133,13 @@ export default defineConfig({
               ]
             },
             {
+              text: '動物體',
+              collapsed: true,
+              items: [
+                { text: '動物體的組織', link: 'notes/biology/動物體/動物體的組織' }
+              ]
+            },
+            {
               text: '實驗',
               collapsed: true,
               items: [
