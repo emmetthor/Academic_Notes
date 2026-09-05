@@ -40,6 +40,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '測量與不確定度', link: 'notes/physics/測量與不確定度' },
+            { text: '不確定度的運算', link: 'notes/physics/不確定度的運算' },
           ]
         },
 
