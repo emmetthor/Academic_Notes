@@ -30,6 +30,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '弧度', link: 'notes/math/三角函數/弧度' },
+                { text: '公式', link: 'notes/math/三角函數/公式' },
               ]
             },
           ]
