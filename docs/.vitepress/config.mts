@@ -221,13 +221,14 @@ export default defineConfig({
           text: '數學',
           collapsed: true,
           items: [
-            {
-              text: '三角函數',
-              collapsed: true,
-              items: [
-                { text: 'math-001', link: '/mistakes/math/三角函數/math-001' }
-              ]
-            }
+              {
+                text: '三角函數應用',
+                collapsed: true,
+                items: [
+                  { text: 'math-001', link: '/mistakes/math/三角函數/math-001' },
+                  { text: 'math-002', link: '/mistakes/math/三角函數應用/math-002' }
+                ]
+              }
           ]
         },
         {
