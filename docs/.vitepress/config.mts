@@ -205,6 +205,19 @@ export default defineConfig({
           link: '/mistakes/'
         },
         {
+          text: '物理',
+          collapsed: true,
+          items: [
+            {
+              text: '因次分析',
+              collapsed: true,
+              items: [
+                { text: 'phy-001', link: '/mistakes/physics/因次分析/phy-001' }
+              ]
+            }
+          ]
+        },
+        {
           text: '數學',
           collapsed: true,
           items: [
