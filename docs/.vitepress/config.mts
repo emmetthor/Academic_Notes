@@ -91,6 +91,13 @@ export default defineConfig({
               ]
             },
             {
+              text: '氧化數',
+              collapsed: true,
+              items: [
+                { text: '氧化數', link: 'notes/chemistry/氧化數/氧化數' },
+              ]
+            },
+            {
               text: '熱',
               collapsed: true,
               items: [
@@ -226,7 +233,7 @@ export default defineConfig({
                 text: '三角函數應用',
                 collapsed: true,
                 items: [
-                  { text: 'math-001', link: '/mistakes/math/三角函數/math-001' },
+                  { text: 'math-001', link: '/mistakes/math/三角函數應用/math-001' },
                   { text: 'math-002', link: '/mistakes/math/三角函數應用/math-002' }
                 ]
               }
@@ -267,6 +274,15 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'che-008', link: '/mistakes/chemistry/酸鹼度/che-008' }
+              ]
+            },
+            {
+              text: '氧化數',
+              collapsed: true,
+              items: [
+                { text: 'che-010', link: '/mistakes/chemistry/氧化數/che-010' },
+                { text: 'che-011', link: '/mistakes/chemistry/氧化數/che-011' },
+                { text: 'che-012', link: '/mistakes/chemistry/氧化數/che-012' }
               ]
             }
           ]
