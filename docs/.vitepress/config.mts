@@ -147,7 +147,8 @@ export default defineConfig({
               text: '動物體',
               collapsed: true,
               items: [
-                { text: '動物體的組織', link: 'notes/biology/動物體/動物體的組織' }
+                { text: '動物體的組織', link: 'notes/biology/動物體/動物體的組織' },
+                { text: '恆定介紹', link: 'notes/biology/動物體/恆定介紹' }
               ]
             },
             {
