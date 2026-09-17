@@ -225,6 +225,15 @@ export default defineConfig({
               items: [
                 { text: 'phy-001', link: '/mistakes/physics/因次分析/phy-001' }
               ]
+            },
+            {
+              text: '簡單運動',
+              collapsed: true,
+              items: [
+                { text: 'phy-002', link: '/mistakes/physics/簡單運動/phy-002' },
+                { text: 'phy-003', link: '/mistakes/physics/簡單運動/phy-003' },
+                { text: 'phy-004', link: '/mistakes/physics/簡單運動/phy-004' }
+              ]
             }
           ]
         },
