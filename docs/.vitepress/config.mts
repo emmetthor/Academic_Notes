@@ -44,6 +44,7 @@ export default defineConfig({
             { text: '不確定度的運算', link: 'notes/physics/不確定度的運算' },
             { text: '因次分析', link: 'notes/physics/因次分析' },
             { text: '位移、速度與加速度', link: 'notes/physics/位移、速度與加速度' },
+            { text: '運動學三大公式', link: 'notes/physics/運動學三大公式' },
           ]
         },
 
