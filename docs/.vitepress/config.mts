@@ -99,10 +99,10 @@ export default defineConfig({
               ]
             },
             {
-              text: '熱',
+              text: '熱化學',
               collapsed: true,
               items: [
-                { text: '反應熱', link: 'notes/chemistry/熱/反應熱' },
+                { text: '反應熱', link: 'notes/chemistry/熱化學/反應熱' },
               ]
             }
           ]
