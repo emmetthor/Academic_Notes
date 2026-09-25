@@ -103,6 +103,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '反應熱', link: 'notes/chemistry/熱化學/反應熱' },
+                { text: '赫斯定律', link: 'notes/chemistry/熱化學/赫斯定律' },
               ]
             }
           ]
