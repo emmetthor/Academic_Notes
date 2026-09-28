@@ -45,6 +45,7 @@ export default defineConfig({
             { text: '因次分析', link: 'notes/physics/因次分析' },
             { text: '位移、速度與加速度', link: 'notes/physics/位移、速度與加速度' },
             { text: '運動學三大公式', link: 'notes/physics/運動學三大公式' },
+            { text: '相對運動', link: 'notes/physics/相對運動' },
           ]
         },
 
