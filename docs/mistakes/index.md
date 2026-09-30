@@ -31,9 +31,12 @@
 - [che-004](./chemistry/酸鹼/che-004)
 - [che-005](./chemistry/酸鹼/che-005)
 
-### 熱化學
+### 反應熱
 
-- [che-006](./chemistry/熱化學/che-006)
+- [che-006](./chemistry/反應熱/che-006)
+- [che-013：物態與燃燒放熱量](./chemistry/反應熱/che-013)
+- [che-014：赫斯定律與莫耳生成熱](./chemistry/反應熱/che-014)
+- [che-015：赫斯定律的反應式組合](./chemistry/反應熱/che-015)
 
 ### 溶解度
 

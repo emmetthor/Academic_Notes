@@ -269,10 +269,13 @@ export default defineConfig({
               ]
             },
             {
-              text: '熱化學',
+              text: '反應熱',
               collapsed: true,
               items: [
-                { text: 'che-006', link: '/mistakes/chemistry/熱化學/che-006' }
+                { text: 'che-006', link: '/mistakes/chemistry/反應熱/che-006' },
+                { text: 'che-013：物態與燃燒放熱量', link: '/mistakes/chemistry/反應熱/che-013' },
+                { text: 'che-014：赫斯定律與莫耳生成熱', link: '/mistakes/chemistry/反應熱/che-014' },
+                { text: 'che-015：赫斯定律的反應式組合', link: '/mistakes/chemistry/反應熱/che-015' }
               ]
             },
             {
