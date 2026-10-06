@@ -74,6 +74,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '化學首頁', link: 'notes/chemistry/index' },
+            {text: '更難的化學式求解', link: 'notes/chemistry/更難的化學式求解'},
             {
               text: '溶液',
               collapsed: true,
