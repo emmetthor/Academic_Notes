@@ -107,6 +107,14 @@ export default defineConfig({
                 { text: '反應熱', link: 'notes/chemistry/熱化學/反應熱' },
                 { text: '赫斯定律', link: 'notes/chemistry/熱化學/赫斯定律' },
               ]
+            },
+            {
+              text: '氣體',
+              collapsed: true,
+              items: [
+                { text: '氣體性質', link: 'notes/chemistry/氣體/氣體性質' },
+                { text: '氣體定律', link: 'notes/chemistry/氣體/氣體定律' },
+              ]
             }
           ]
         },
