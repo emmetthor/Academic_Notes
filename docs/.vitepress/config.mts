@@ -47,6 +47,7 @@ export default defineConfig({
             { text: '運動學三大公式', link: 'notes/physics/運動學三大公式' },
             { text: '相對運動', link: 'notes/physics/相對運動' },
             { text: '平面運動三大公式', link: 'notes/physics/平面運動三大公式' },
+            { text: '平拋與斜拋運動', link: `notes/physics/平拋與斜拋運動`},
           ]
         },
 
